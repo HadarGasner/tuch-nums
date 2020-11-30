@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>touch-nums</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="init()">
+    
+
+    <button class="new-game"  onclick="newGame()">new game</button> 
+    <div class="next-num">next number: 1 </div>
+    <div class="time"> </div>
+    
+    <button class="extreme difficulty" onclick="changDifficulty(6)">extreme</button>
+    <button class="hard difficulty" onclick="changDifficulty(5)">hard</button>
+    <button class="eazy difficulty" onclick="changDifficulty(4)">eazy</button>
+ 
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <div class="modal">
+        
+        <h3>v i c t o r y</h3>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+.board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: .5s;
+    border:  4px dotted black;
+    cursor: pointer;
+}
+
+.pushed{
+    background-color: rgb(242, 204, 250);
+}
+
+.difficulty{
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.new-game{
+    padding: 10px;
+    height: 70px;
+    border:  1px solid;
+    left: 250px;
+    cursor: pointer;
+}
+
+.modal{
+    background-color:rgb(238, 148, 148);
+    position: absolute;
+    top: 200px;
+    display: none;
+    counter-reset: rgb(117, 23, 23);
+    left: 250px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.next-num{
+    background-color:rgb(253, 181, 152);
+    height: 25px;
+    border:  1px solid;
+    padding: 10px;
+    left:10px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.time{
+    background-color:rgb(240, 198, 62);
+    height: 30px;
+    border:  1px solid;
+    padding: 10px;
+    left:10px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
